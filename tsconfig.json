@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "outDir": "build",
+      "sourceMap": true,
+      "target": "esnext",
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "Node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "noEmitOnError": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "allowUnreachableCode": false,
+      "removeComments": true,
+      "noUncheckedIndexedAccess": true,
+      "allowJs": true,
+       "lib": ["es6", "dom"],
+       "jsx": "react",
+    }
+  }
+  
