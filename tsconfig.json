@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+    //  "module": "commonjs",
       "outDir": "build",
       "sourceMap": true,
       "target": "esnext",
@@ -17,8 +18,13 @@
       "removeComments": true,
       "noUncheckedIndexedAccess": true,
       "allowJs": true,
+      "types": ["jest","node"],
        "lib": ["es6", "dom"],
        "jsx": "react",
-    }
+    },
+    "exclude": [
+      "**/*.spec.ts"
+    ]
+
   }
   
